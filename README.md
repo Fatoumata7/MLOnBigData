@@ -1,15 +1,18 @@
-# Projet Spark – Implémentation distribuée de k-NN et Naïve Bayes
+# Projet : K-NN et Naïve Bayes avec MapReduce
 
 
 
 ## Description
-Ce projet explore l’implémentation et l’évaluation de deux algorithmes classiques de machine learning – **k-Nearest Neighbors (k-NN)** et **Naïve Bayes** – dans l’écosystème **Apache Spark**.  
-L’objectif est de comparer trois approches : **RDD**, **DataFrame** et **Spark ML**, selon trois dimensions principales :  
-- **Précision (accuracy)**  
-- **Temps d’exécution**  
-- **Scalabilité** en fonction du volume de données et du parallélisme.  
 
-Les expériences sont menées sur le dataset **Poker Hand**, un benchmark classique pour les tâches de classification.  
+Ce projet s’intéresse à l’implémentation et à l’évaluation de deux algorithmes emblématiques de l’apprentissage automatique – **k-Nearest Neighbors (k-NN)** et **Naïve Bayes** – en utilisant **PySpark** et le paradigme **MapReduce**.
+
+L’étude vise à comparer trois modes d’exécution : **RDD**, **DataFrame** et **Spark ML**, selon trois axes principaux :
+* **Précision des résultats (accuracy)**
+* **Performance temporelle (temps d’exécution)**
+* **Capacité de passage à l’échelle (scalabilité)**
+
+Les implémentations s’appuient sur les travaux de Jesus Maillo (*A MapReduce-based k-Nearest Neighbor Approach for Big Data Classification*) et de Songtao Zheng (*Naïve Bayes Classifier: A MapReduce Approach*).
+Les expérimentations sont réalisées sur le jeu de données **Poker Hand**, un benchmark de référence pour les problèmes de classification.
 
 
 

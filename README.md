@@ -34,7 +34,7 @@ Les expérimentations sont réalisées sur le jeu de données **Poker Hand**, un
 
 
 ## 🚀 Prérequis
-- **Python 3.8+**
+- **Python 3.9+**
 - **Apache Spark (pyspark)**
 - **Jupyter Notebook**
 - Librairies Python : `pandas`, `matplotlib`
@@ -44,8 +44,8 @@ Les expérimentations sont réalisées sur le jeu de données **Poker Hand**, un
 ## Exécution
 1. Cloner le dépôt :
    ```bash
-   git clone <url-du-repo>
-   cd projet-spark-knn-naivebayes
+   git clone https://github.com/Fatoumata7/MLOnBigData.git
+   cd MLOnBigData
     ```
 
 2. Lancer Jupyter Notebook :
@@ -62,7 +62,7 @@ Les expérimentations sont réalisées sur le jeu de données **Poker Hand**, un
 
 
 
-## Auteurs
+## Informations
 
-* **Pénélope Millet**
-* **Fatoumata Wadiou**
+* Auteurs : **Pénélope Millet** & **Fatoumata Wadiou**
+* Dernière mise à jour le : 31 août 2025
